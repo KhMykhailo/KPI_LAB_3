@@ -15,10 +15,10 @@ namespace lab3.Tests
         [Test]
         public static void CorrectLoginTest()
         {
-            string email = "pro1001111111@bk.ru";
-            string password = "Vova28042001";
+            string email = "xadawi1445@astarmax.com";
+            string password = "asdqwert";
 
-            string expectedUserName = "NaVi_strelok_iz_kustov";
+            string expectedUserName = "bwnu";
 
             loginHelper
                 .Login(email, password)
@@ -29,7 +29,7 @@ namespace lab3.Tests
         [Test]
         public static void InCorrectLoginTest()
         {
-            string email = "pro1001111111@bk.ru";
+            string email = "mishka35@bk.ru";
             string password = "rthgthgfh";
 
             loginHelper
