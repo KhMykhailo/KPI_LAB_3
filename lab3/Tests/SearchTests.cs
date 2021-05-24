@@ -15,7 +15,7 @@ namespace lab3.Tests
         [Test]
         public void ShowTipsTest()
         {
-            string searchRequest = "asd\n";
+            string searchRequest = "ghb";
 
             searchHelper.Search(searchRequest)
                 .AssertTipsIsPresent();
@@ -24,7 +24,7 @@ namespace lab3.Tests
         [Test]
         public void SearchIsCorrectTest()
         {
-            string searchRequest = "zxc\n";
+            string searchRequest = "asdcv\n";
 
             searchHelper.Search(searchRequest)
                 .AssertProductListIsShown();
@@ -33,7 +33,7 @@ namespace lab3.Tests
         [Test]
         public void SearchIsNotSuccessfullTest()
         {
-            string searchRequest = "fghtdtyj\n";
+            string searchRequest = "erjgregh\n";
 
             searchHelper.Search(searchRequest)
                 .AssertMeesage();
